@@ -26,7 +26,10 @@ VALUES ("98237", "NGT Drop Shot Combo", "Met deze zeer complete startersset kun 
    vissen!", 35.89, 201, 25, 1, 1);
 
 INSERT INTO hengels (code, name, description, price, lengte, max_gewicht, soort_id, soortgelijke_hengel)
-VALUES ();
+VALUES ("85624", "Abu Garcia Revo X Combo", "Deze combo set is perfect voor de roofvisser
+ die op zoek is naar een degelijke set. Dankzij de Carbon Matrix slip is het drillen
+  van grotere roofvis geen probleem voor deze molen. De WinnGrip handvat zorgt voor
+   een prettige grip en unieke uitstraling.", 96.69, 210, 15, 1, 1);
 
 INSERT INTO hengels (code, name, description, price, lengte, max_gewicht, soort_id, soortgelijke_hengel)
 VALUES ();
