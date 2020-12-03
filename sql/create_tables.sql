@@ -1,24 +1,24 @@
-DROP TABLE IF EXISTS hengels; 
-CREATE TABLE hengels (
+DROP TABLE IF EXISTS products; 
+CREATE TABLE products (
   ID SERIAL PRIMARY KEY,
-  code VARCHAR(15),
-  name VARCHAR(255),
+  code TEXT,
+  name TEXT,
   description TEXT,
-  price NUMERIC(10, 2)
-  lengte INTEGER,
-  max_gewicht INTEGER,
-  soort_id INTEGER
-  soortgelijke_hengel INTEGER
+  price INT
+  ook_bekeken INT
+  producttype INT
 );
 
-DROP TABLE IF EXISTS soort_hengel;
-CREATE TABLE soort_hengel (
+DROP TABLE IF EXISTS hengel_eigenschappen;
+CREATE TABLE hengel_eigenschapen (
   ID SERIAL PRIMARY KEY,
-  soort TEXT
+  lengte INT,
+  max_gewicht INT,
+  hengelsoort_id INT
 );
 
-DROP TABLE IF EXISTS soortgelijk_product;
-CREATE TABLE soortgelijk_product (
+DROP TABLE IF EXISTS hengel_soort
+CREATE TABLE hengel_soort {
   ID SERIAL PRIMARY KEY,
-  hengel INTEGER
-);
+  hengelsoort TEXT
+}
