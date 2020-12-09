@@ -6,12 +6,12 @@
 -- producttype 1 = hengel
 -- producttype 2 = aas
 
-INSERT INTO products (code, name, description, ook_bekeken, producttype)
+INSERT INTO products (code, name, description, price, ook_bekeken, producttype)
 VALUES ("75847", "Abu Garcia Black Max Combo", "De Black Max Combo van Abu Garcia bestaat uit 
 een pittige jerkbaithengel voor kunstaas tot ongeveer 45gram en een prima baitcast reel
  die is voorzien van 5 kogellagers en een uitstekende slip. Schitterende set voor de 
  beginnende kunstaasvisser!", 75.00, 2, 1);
-
+/*
 INSERT INTO products (code, name, description, price, ook_bekeken, producttype)
 VALUES ("57694", "Abu Garcia Pro Max", "Lichtgewichte compacte combi
  die is gemaakt om dag in, dag uit alle worstelingen te kunnen weerstaan.", 94.99, 4, 1);
@@ -83,4 +83,4 @@ INSERT INTO hengel_eigenschappen (lengte, max_gewicht, hengelsoort_id) VALUES (2
 INSERT INTO hengel_soort (hengelsoort) VALUES ("hengel met reel");
 
 INSERT INTO hengel_soort (hengelsoort) VALUES ("hengel met molen");
-
+*/
