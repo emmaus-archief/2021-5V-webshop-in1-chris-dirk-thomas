@@ -1,9 +1,9 @@
 DROP TABLE IF EXISTS products; 
 CREATE TABLE products (
   ID SERIAL PRIMARY KEY,
-  code TEXT,
-  name TEXT,
-  description TEXT,
+  code VARCHAR(15),
+  name VARCHAR(255),
+  description VARCHAR(1000),
   price INT,
   ook_bekeken INT,
   producttype INT
@@ -20,13 +20,13 @@ CREATE TABLE hengel_eigenschappen (
 DROP TABLE IF EXISTS hengel_soort;
 CREATE TABLE hengel_soort (
   ID SERIAL PRIMARY KEY,
-  hengelsoort TEXT
+  hengelsoort VARCHAR(255)
 );
 
 DROP TABLE IF EXISTS soort_aas;
 CREATE TABLE soort_aas (
   ID SERIAL PRIMARY KEY,
-  aassoort TEXT
+  aassoort VARCHAR(255)
 );
 
 DROP TABLE IF EXISTS aas_eigenschappen;
