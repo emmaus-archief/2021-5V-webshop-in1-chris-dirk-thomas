@@ -5,6 +5,7 @@
 --
 -- producttype 1 = hengel
 -- producttype 2 = aas
+-- browser fix
 
 INSERT INTO products (code, name, description, price, ook_bekeken, producttype)
 VALUES ('75847', 'Abu Garcia Black Max Combo', 'De Black Max Combo van Abu Garcia bestaat uit 
