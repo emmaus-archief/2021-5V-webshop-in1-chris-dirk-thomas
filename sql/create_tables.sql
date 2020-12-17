@@ -23,9 +23,15 @@ CREATE TABLE hengel_soort (
   hengelsoort TEXT
 );
 
-DROP IF EXISTS soort_aas;
-CREATE TABLE soort-aas (
+DROP TABLE IF EXISTS soort_aas;
+CREATE TABLE soort_aas (
   ID SERIAL PRIMARY KEY,
-  soort_aas TEXT,
-  aas_id INTEGER
+  aassoort TEXT
+);
+
+DROP TABLE IF EXISTS aas_eigenschappen;
+CREATE TABLE aas_eigenschappen (
+  ID SERIAL PRIMARY KEY,
+  gewicht INT,
+  lengte INT
 );

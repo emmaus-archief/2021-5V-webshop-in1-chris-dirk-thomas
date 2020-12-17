@@ -45,7 +45,8 @@ INSERT INTO products (code, name, description, price, ook_bekeken, producttype)
 VALUES ('64836', 'Berkler Powerbait Pulse Shad 3st',
 'Door de specifieke vorm van de staart van de Pulse Shad is het mogelijk om deze 
 softbait zeer langzaam binne te halen zonder dat het aas zijn mooie actie verliest. 
-Vooral bij wisselend binnenhalen tussen snel en langzaam is dit een gigantisch voordeel.', 6.54, 2, 2);
+Vooral bij wisselend binnenhalen tussen snel en langzaam is dit
+ een gigantisch voordeel.', 6.54, 10, 2); --pulse
 
 INSERT INTO products (code, name, description, price, ook_bekeken, producttype)
 VALUES ('69420', 'Berkley Powerbait Hollow Belly', 'De peddelvormige staart van deze 
@@ -55,20 +56,31 @@ Doordat de shad een holle buik heeft is het eenvoudig om de haak te zetten. Bove
 zorgt het voor een levendig uiterlijk wat in combinatie met de geur van de Powerbait er 
 voor zorgt dat dit aas onweerstaanbaar is voor roofvis. Ook wanneer de vis zijn tanden in 
 de shad zet, voelt deze veel zachter en natuurlijker aan dan een massieve shad wat het 
-verspelen van vis sterk verminderd.', 9.98, 1, 2);
+verspelen van vis sterk verminderd.', 9.98, 6, 2); --pulse
 
 INSERT INTO products (code, name, description, price, ook_bekeken, producttype)
 VALUES ('56511', 'Fox Rage Spinnerbait', 'Wanneer snoek niet wilt bijten dan moet je
  deze spinnerbait eens proberen. Deze spinnerbait zorgt voor zo veel beweging en 
  attractie in het water dat snoek er gewoon niet omheen kan. De spinnerbait heeft 
  twee spinnerbladen en een grote bucktail met daarin een haak verstopt. 
- De ogen op de spinnerbait maken de aantrekkingskracht af.', 11.77, 4, 2);
+ De ogen op de spinnerbait maken de aantrekkingskracht af.', 11.77, 9, 2); --spinner
 
 INSERT INTO products (code, name, description, price, ook_bekeken, producttype)
-VALUES ()
+VALUES ('12345', 'Effzett Pike Rattlin Spinner', 'De Effzett Pike Spinner is op 
+meerdere manieren onweerstaanbaar. De spinnerbladen zorgen voor een goede 
+waterverplaatsing onderwater, hierdoor zal de snoek het kunstaasje 
+snel opmerken. Daarnaast is de spinner voorzien van ratel, zodat hij nog
+meer opvalt. Vis de spinner met gevarieerde snelheid en de aanbeten zullen 
+niet uitblijven.', 11.67, 8, 2); --spinner
 
 INSERT INTO products (code, name, description, price, ook_bekeken, producttype)
-VALUES ()
+VALUES ('76594', 'Abu Garcia Svartzonker McHybrid Small', 'Mc Hybrid geeft je het 
+beste van 2 werelden. De duurzaamheid van een hard aas en tegelijkertijd de softe 
+actie van een shad tail. Deze plug kan op twee verschillende dieptes ingezet worden. 
+De lage ring is voor de ondiepere actie en de hogere ring voor de diepere actie. 
+McHybrid kan ook gecombineerd worden met soft tails van McMy en McMio. 
+Dit geeft de plug een langzamere actie, waardoor deze bij lagere watertemperaturen 
+goed te gebruiken is.', 15.75, 7, 2); -- pulse
 
 INSERT INTO hengel_eigenschappen (lengte, max_gewicht, hengelsoort_id) VALUES (188, 45, 1);
 
@@ -84,3 +96,16 @@ INSERT INTO hengel_soort (hengelsoort) VALUES ('hengel met reel');
 
 INSERT INTO hengel_soort (hengelsoort) VALUES ('hengel met molen');
 
+INSERT INTO soort_aas (aassoort) VALUES ('Pulsebait');
+
+INSERT INTO soort_aas (aassoort) VALUES ('Spinnerbait'); 
+
+INSERT INTO aas_eigenschappen (gewicht, lengte) VALUES(21, 7.5);
+
+INSERT INTO aas_eigenschappen (gewicht, lengte) VALUES(15, 10);
+
+INSERT INTO aas_eigenschappen (gewicht, lengte) VALUES(14, 8.5);
+
+INSERT INTO aas_eigenschappen (gewicht, lengte) VALUES(40, 15.5);
+
+INSERT INTO aas_eigenschappen (gewicht, lengte) VALUES(68, 15.5);
