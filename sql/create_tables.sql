@@ -5,7 +5,7 @@ CREATE TABLE products (
   code TEXT,
   name TEXT,
   description TEXT,
-  price INT,
+  price NUMERIC(10, 2),
   ook_bekeken INT,
   producttype INT
 );
