@@ -26,7 +26,7 @@ CREATE TABLE hengel_soort (
 DROP TABLE IF EXISTS soort_aas;
 CREATE TABLE soort_aas (
   ID SERIAL PRIMARY KEY,
-  aassoort TEXT,
+  aassoort TEXT
 );
 
 DROP TABLE IF EXISTS aas_eigenschappen;
