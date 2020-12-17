@@ -128,16 +128,16 @@ INSERT INTO soort_aas (aassoort) VALUES ('Spinnerbait');
 
 -- aaseigenschappen tabel
 --01
-INSERT INTO aas_eigenschappen (gewicht, lengte) VALUES(21, 7.5, 1);
+INSERT INTO aas_eigenschappen (gewicht, lengte, aassoort_id) VALUES(21, 7.5, 1);
 
 --02
-INSERT INTO aas_eigenschappen (gewicht, lengte) VALUES(15, 10, 1);
+INSERT INTO aas_eigenschappen (gewicht, lengte, aassoort_id) VALUES(15, 10, 1);
 
 --03
-INSERT INTO aas_eigenschappen (gewicht, lengte) VALUES(14, 8.5, 2);
+INSERT INTO aas_eigenschappen (gewicht, lengte, aassoort_id) VALUES(14, 8.5, 2);
 
 --04
-INSERT INTO aas_eigenschappen (gewicht, lengte) VALUES(40, 15.5, 2);
+INSERT INTO aas_eigenschappen (gewicht, lengte, aassoort_id) VALUES(40, 15.5, 2);
 
 --05
-INSERT INTO aas_eigenschappen (gewicht, lengte) VALUES(68, 15.5, 2);
+INSERT INTO aas_eigenschappen (gewicht, lengte, aassoort_id) VALUES(68, 15.5, 2);
